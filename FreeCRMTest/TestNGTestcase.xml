@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TEst suresh" verbose="1" parallel="tests" thread-count="1">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.adapter.listener.ExtentITestListenerClassAdapter"></listener>
+    </listeners>
+	
+    <test name="TEst suresh" parallel="methods" thread-count="1">
+        
+ <!--        <groups>
+            <run>
+                <include name = "Group40" />
+                <include name = "Group62" />
+                <exclude name = "Group82" />
+            </run>
+        </groups>-->
+        <classes>
+        <class name = "com.crm.qa.testcases.Loginpagetest" />
+        </classes>
+    </test>
+
+</suite>
