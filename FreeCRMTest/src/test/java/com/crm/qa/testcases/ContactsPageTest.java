@@ -10,7 +10,7 @@ import com.crm.qa.pages.ContactsPage;
 import com.crm.qa.pages.DealsPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
-
+//suresh
 public class ContactsPageTest extends TestBase {
 
 	LoginPage L;
