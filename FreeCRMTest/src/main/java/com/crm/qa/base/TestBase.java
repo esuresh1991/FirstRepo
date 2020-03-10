@@ -26,7 +26,7 @@ public class TestBase {
 		try {
 			
 			P = new Properties();
-			FileInputStream F = new FileInputStream("D:\\auto\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			FileInputStream F = new FileInputStream("C:\\Users\\Suresh\\git\\FirstRepo\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
 			P.load(F);
 			System.out.println(P.getProperty("url"));
 			
@@ -45,7 +45,7 @@ public class TestBase {
 		
 		
 		if(browsername.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\C drive\\Downloads\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Suresh\\Downloads\\chromedriver_win64\\chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		else if (browsername.equals("FF")) {
