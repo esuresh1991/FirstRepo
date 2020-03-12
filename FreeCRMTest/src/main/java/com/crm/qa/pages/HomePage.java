@@ -46,8 +46,6 @@ public class HomePage extends TestBase {
 		{
 			return Username.isDisplayed();
 		}
-		
-		
-		
+			
 
 }

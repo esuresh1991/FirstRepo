@@ -30,12 +30,12 @@ public class ContactsNewPageTest extends TestBase {
 	{
 		initalization();
 		L = new LoginPage();
-		Dp = new  DealsPage();
-		C = new ContactsPage();
-		Cn  = new ContactsNewPage();
+		//Dp = new  DealsPage();
+		//C = new ContactsPage();
+		//Cn  = new ContactsNewPage();
 		Hp = L.Login(P.getProperty("username"), P.getProperty("password"));
-		Hp.ClickContacts();
-		C.ClickContactsNewPage();
+		C = Hp.ClickContacts();
+		Cn = C.ClickContactsNewPage();
 	}
 
 	@DataProvider
