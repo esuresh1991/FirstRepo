@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="AddNewContact"/>
+          <include name="AddNewContact" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsNewPageTest -->
     </classes>
