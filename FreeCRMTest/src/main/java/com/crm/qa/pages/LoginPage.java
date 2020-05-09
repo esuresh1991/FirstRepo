@@ -33,7 +33,6 @@ public class LoginPage extends TestBase {
 		email.sendKeys(Un);
 		password.sendKeys(Pa);
 		Login.click();
-
 		return new HomePage();
 	}
 
